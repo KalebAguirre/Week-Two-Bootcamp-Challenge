@@ -1,0 +1,91 @@
+:root{
+    --Dark: rgb(63, 63, 63);
+    --Light: rgb(123, 253, 253);
+    --DBlue: rgb(46, 46, 136);
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+    padding:1%;
+    height: 15vh;
+    background-color: var(--Dark);
+    width: 100%;
+}
+
+.title{
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--Dark);
+    background-color: var(--Light);
+    padding-left: 5%;
+    padding-top: 0.5%;
+    height: 10vh;
+    width: 25%;
+    font-size: 65px;
+    align-items: right;
+    font-weight: bolder;
+}
+
+.HeaderLinks{
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--Light);
+    justify-content: center;
+    align-items:right;
+    font-size: 30px;
+    text-decoration: underline;
+    padding-left: 2%;
+}
+
+p{
+    display: flex;
+    padding-left: 20%;
+    flex-direction: column;
+    text-align: top;
+    flex-wrap: wrap;
+    width: 90%;
+    font-size: 20px;
+}
+
+.PHeader{
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--DBlue);
+    font-size: 60px;
+    font-weight: bold;
+    text-decoration: underline;
+    width: 7%;
+    text-align: center;
+    padding-left: 4%;
+}
+
+.WorkButton{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 50px;
+    flex: 1 0 0;
+    width: 30%;
+    height: 20vh;
+    border-style: solid;
+    border-color: var(--Light);
+    border-width: 5px;
+    text-align: left;
+    margin-left: 20%;
+    padding: 3%;
+    padding-left: 1%;
+    color: var(--Dark);
+}
+
+.Contact{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    width: 100%;
+    padding-left: 20%;
+    padding-bottom: 4%;
+    font-size: 30px;
+    color: var(--Dark);
+    text-decoration:underline var(--DBlue);
+}
